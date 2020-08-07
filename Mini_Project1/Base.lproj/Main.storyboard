@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mini_Project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ol7-zf-BMz">
+                                <rect key="frame" x="54" y="120" width="307" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="24"/>
+                                <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <state key="normal" title="About Me: Kat Cheng">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="introBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lii-MN-QcI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ebb7a1eec10f47a0d10449e2d97929c1" translatesAutoresizingMaskIntoConstraints="NO" id="9Yi-LZ-gLR">
+                                <rect key="frame" x="54" y="195" width="306" height="385"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fun Fact: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zg5-Eg-UFT">
+                                <rect key="frame" x="142" y="629" width="131" height="28"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LmF-0R-AHO">
+                                <rect key="frame" x="191" y="665" width="33" height="28"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A44-dJ-ACb">
+                                <rect key="frame" x="191" y="701" width="33" height="28"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-hK-lUv">
+                                <rect key="frame" x="191" y="737" width="33" height="28"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81481313856237736" green="0.95323061014478672" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A44-dJ-ACb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AKP-bI-Ys5"/>
+                            <constraint firstItem="9Yi-LZ-gLR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LRf-P8-GYO"/>
+                            <constraint firstItem="Ol7-zf-BMz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-306" id="Pkm-ar-Rju"/>
+                            <constraint firstItem="A44-dJ-ACb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="267" id="SXc-zb-zr0"/>
+                            <constraint firstItem="zg5-Eg-UFT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YEf-2k-0kT"/>
+                            <constraint firstItem="Hbp-hK-lUv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ya1-lk-ChN"/>
+                            <constraint firstItem="LmF-0R-AHO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="230.5" id="aio-B0-go9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Yi-LZ-gLR" secondAttribute="trailing" constant="54" id="bmI-ez-FWr"/>
+                            <constraint firstItem="9Yi-LZ-gLR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-72.5" id="cab-ED-bp4"/>
+                            <constraint firstItem="LmF-0R-AHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gxe-s0-rjg"/>
+                            <constraint firstItem="zg5-Eg-UFT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="195" id="o9n-eT-omo"/>
+                            <constraint firstItem="9Yi-LZ-gLR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="txh-wp-ta5"/>
+                            <constraint firstItem="Hbp-hK-lUv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="303" id="y8n-kC-52f"/>
+                            <constraint firstItem="Ol7-zf-BMz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yot-qU-Z96"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="fact1" destination="LmF-0R-AHO" id="NKR-YT-LU8"/>
+                        <outlet property="fact2" destination="A44-dJ-ACb" id="AF9-Lh-pUu"/>
+                        <outlet property="fact3" destination="Hbp-hK-lUv" id="4oQ-xc-QBs"/>
+                        <outlet property="myPic" destination="9Yi-LZ-gLR" id="Vps-di-zDA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="57.589285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ebb7a1eec10f47a0d10449e2d97929c1" width="750" height="936"/>
+    </resources>
+</document>
